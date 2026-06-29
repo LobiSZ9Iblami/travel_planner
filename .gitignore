@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+
+# IDEs
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.csv
+*.tsv
+*.json
+
+# Environment secrets
+../.env
+.env
+*.secret
+.env.test
+tests/.env.test
+.dockerignore
+
+# Alembic
+alembic.ini
+app/db/alembic/__pycache__/
+app/db/alembic/*.pyc
+app/db/alembic/versions/__pycache__/
+app/db/alembic/versions/*.pyc
