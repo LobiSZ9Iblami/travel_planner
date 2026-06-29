@@ -54,6 +54,8 @@ docker compose exec app alembic upgrade head
 ```commandline
 http://localhost:8000/docs
 ```
+#### Endpoints:
+![img.png](img.png)
 
 
 ### 6. This project uses the Art Institute of Chicago API to validate and fetch artwork data:
